@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+section {
+  margin: 10% 15%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: #adf5d3;
+  font-weight: 800;
+  padding: 0.75rem 4rem;
+  border-color: transparent;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+nav {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin: 2rem 8vw;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 57vw;
+}
+.links > div {
+  margin-left: 3vw;
+}
+nav > div > div {
+  display: inline;
+}
+nav > div > div > button {
+  background-color: #d9d9d9;
+  border-color: transparent;
+  width: 8.875vw;
+  height: 2.5rem;
+  margin-left: 3.6875vw;
+  padding: 0;
+  display: inline;
+  margin-bottom: 0.2rem;
+}
+.hero {
+  background-image: url("./images/herobg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 75vh;
+  margin: 11.11vh 6.875vw;
+}
+.hero > div {
+  padding: 6.7vh 12.05vw 6.7vh 1.31vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.why {
+  background-image: url("./images/whybg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 125.7vh;
+  margin: 11.11vh 6.875vw;
+}
+.container {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.why > div {
+  padding: 6.7vh 8.9vw;
+}
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  background-image: url("./images/backgroundcon.png");
+  padding: 4rem 2rem;
+}
+.footer {
+  background-color: #adf5d3;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.social {
+  margin-top: 1.5rem;
+}
+.social > img {
+  margin: 0 0.25rem;
+}
+.footer-sections {
+  display: flex;
+  flex-direction: row;
+}
+.footer-section {
+  margin-right: 10%;
+}
+.footer-title {
+  color: gray;
+}
+.footer-text {
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.login {
+  margin: 10% 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.welcome {
+  margin: 10% 15%;
+}
+.testimonios {
+  margin: 10% 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.testimonio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem 0;
+  align-items: center;
+}
+.testimonio > div > div {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  width: 30vw;
+}
+.preguntasq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.preguntasq > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.preguntasq > div > img {
+  margin-top: 2rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+h1 {
+  margin: 0% 10% 5% 10%;
+  font-size: 2rem;
+}
+h2 {
+  margin: 0% 10% 5% 10%;
+}
+.question-section {
+  margin: 4% 15%;
+}
+input {
+  border-style: solid;
+  border-color: #b5b5b5;
+}
+.row-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+.feature {
+  margin-bottom: 10%;
+}
+.buy {
+  background-color: #000000;
+  color: white;
+  border-color: transparent;
+  border-radius: 4rem;
+  padding: 1rem 4rem;
+}
+.buy > a {
+  color: white;
+}
+.method {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rowb {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+.rowb > input {
+  margin: 0 5%;
+}
+.confirm {
+  margin: 3% 45% 1% 45%;
+}
+
+.header-hero {
+  font-size: 5rem;
+  color: #130f49;
+  font-weight: 500;
+}
+.header2-hero {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.button-hero {
+  margin: 0 10%;
+}
+.header-why {
+  font-size: 5rem;
+  color: #130f49;
+  font-weight: 500;
+  margin: 0 0 2rem 0;
+}
+.plate {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.plate > div {
+  text-align: center;
+  color: #312f2f;
+  font-size: 2rem;
+}
+
+.plate > img {
+  width: 30vw;
+}
+.rowc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  align-items: center;
+}
+.h1login {
+  margin: 2rem 0;
+}
+.h4login {
+  color: #a0a0a0;
+}
+.email {
+  margin-top: 4rem;
+  font-weight: 400;
+}
+.pwd {
+  font-weight: 400;
+}
+.login-input {
+  margin-bottom: 2rem;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column > button {
+  margin: 2rem 0;
+}
+.register {
+  margin-top: 2rem;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.h1-nm {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rowd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  justify-content: center;
+}
